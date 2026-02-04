@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mood Dashboard</title>
+<style>
+body { background: #edf1ff; font-family: Arial; }
+.container { max-width: 600px; margin: auto; padding: 30px; }
+h2 { color: #6a2cff; text-align: center; }
+.mood-card {
+  background: white; padding: 20px; margin-top: 20px;
+  border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+button {
+  padding: 10px 20px; background: #6a2cff; color: white;
+  border: none; border-radius: 8px; cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+  <h2>Your Emotional Dashboard</h2>
+
+  <div class="mood-card">
+    <p><b>Today’s Mood:</b></p>
+    <button onclick="alert('Mood saved!')">😔 Stressed</button>
+    <button onclick="alert('Mood saved!')">😊 Happy</button>
+    <button onclick="alert('Mood saved!')">😐 Neutral</button>
+    <button onclick="alert('Mood saved!')">😟 Anxious</button>
+  </div>
+</div>
+</body>
+</html>
